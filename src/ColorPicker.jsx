@@ -8,6 +8,7 @@ function ColorPicker(){
         <h1>Color Changer</h1>
         <div className='color-display' style={{backgroundColor: color}}>
             <p>Selected Color: {color}</p>
+            <p>Choice:</p>
         </div>
     </div>);
 }
